@@ -1,0 +1,29 @@
+html, body {
+    margin: 10;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    border-color: royalblue;
+    color: royalblue;
+    width: 7%;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: royalblue;
+    background-color: royalblue;
+    color: white;
+}
+
+input[type = color] {
+    width: 75px;
+    height: 20px;
+}
